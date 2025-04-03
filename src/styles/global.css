@@ -1,10 +1,13 @@
 /* CSS VARIABLES */
 :root {
   /* Colors */
-  --color-primary: #007bff;
-
+  --color-header: #050523;
+  --color-headerBorder: #ffffff10;
+  --color-headerParagraph: #98989a;
+  --color-headerButton: #5547eb;
+  --color-white: #ffffff;
   /* Typography */
-  --font-family-Poppins: "poppinesFont", Arial;
+  --font-family-manrope: "manrope", Arial;
 }
 
 html,
@@ -161,10 +164,6 @@ select {
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "poppinesFont";
-  src: url("/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: "monstserrat";
-  src: url("/Montserrat-Regular.ttf");
+  font-family: "manrope";
+  src: url("/Manrope-Regular.ttf");
 }
