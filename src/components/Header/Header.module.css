@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 24px;
-  margin: 40px auto;
+  margin: auto;
   background-color: var(--color-header);
   border-radius: 10px;
   border: 1px solid var(--color-headerBorder);
@@ -46,6 +46,10 @@
   font-size: 14px;
   font-weight: 500;
   color: var(--color-white);
+  transition: 300ms;
+}
+.headerButton:hover {
+  filter: drop-shadow(0px 0px 10px var(--color-headerButton));
 }
 .navComponent {
   position: relative;
@@ -70,4 +74,5 @@
 }
 .headerContainer ul li a:hover {
   color: var(--color-white);
+  filter: drop-shadow(0px 0px 20px var(--color-white));
 }
