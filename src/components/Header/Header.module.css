@@ -75,3 +75,38 @@
   color: var(--color-white);
   filter: drop-shadow(0px 0px 20px var(--color-white));
 }
+.burgerMenu {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.10127801120448177) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  border: 1px solid var(--color-headerBorder);
+}
+@media (max-width: 1440px) {
+  .headerContainer {
+    max-width: 358px;
+    height: 80px;
+  }
+  .headerNavigationBar {
+    display: none;
+  }
+  .headerButton {
+    display: none;
+  }
+  .logo {
+    width: 109px;
+  }
+  .burgerMenu {
+    display: flex;
+  }
+}
