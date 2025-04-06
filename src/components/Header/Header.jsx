@@ -26,6 +26,9 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+        <button className={styles.burgerMenu}>
+          <img src="images/svg/burgerMenusvg.svg" alt="burgerMenu" />
+        </button>
         <button className={styles.headerButton}>Contact Me</button>
       </header>
     </>
