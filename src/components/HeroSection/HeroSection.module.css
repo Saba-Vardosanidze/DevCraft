@@ -16,7 +16,8 @@
   font-family: var(--font-family-manrope);
 }
 .profileMainContainer {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   display: flex;
   justify-content: center;
   height: 445px;
