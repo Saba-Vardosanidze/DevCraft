@@ -27,6 +27,8 @@ export const offeredContainer = [
     img: "images/svg/windowsIcon.svg",
     alt: "windowsIcon",
     title: "SEO Optimization",
+    arrow: "images/svg/arrowIcon.svg",
+    arrowAlt: "arrow",
     description: `Increase your online visibility and traffic with my SEO optimization services.`,
   },
 ];
