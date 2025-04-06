@@ -37,6 +37,7 @@
   color: var(--color-white);
   font-size: 48px;
   font-weight: bold;
+  text-align: center;
 }
 .welcomeTitle p {
   color: var(--color-paragraph);
@@ -122,6 +123,7 @@
 .slider:hover .item {
   animation-play-state: paused !important;
   filter: grayscale(1);
+  cursor: pointer;
 }
 .slider .item:hover {
   filter: grayscale(0);
@@ -141,4 +143,15 @@
   margin-top: 93px;
   color: var(--color-sliderParagraph);
   font-size: 14px;
+}
+@media (max-width: 1200px) {
+  .mainContainer {
+    width: 357px;
+  }
+  .welcomeTitle h2 {
+    font-size: 28px;
+  }
+  .companies {
+    margin-top: 50px;
+  }
 }
