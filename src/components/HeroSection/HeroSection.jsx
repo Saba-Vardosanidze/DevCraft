@@ -24,7 +24,11 @@ export default function HeroSection({ children }) {
           <div className={styles.fourthCircle}>
             <div className={styles.thirdCircle}>
               <div className={styles.secondRound}>
-                <img src="/images/svg/john.svg" alt="profile" />
+                <img
+                  className={styles.mainCharacter}
+                  src="/images/svg/john.svg"
+                  alt="profile"
+                />
               </div>
             </div>
             <div className={styles.helloContainer}>Hey 👋, i am John</div>
