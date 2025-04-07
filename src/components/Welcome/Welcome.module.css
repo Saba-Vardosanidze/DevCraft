@@ -153,4 +153,7 @@
   .companies {
     margin-top: 50px;
   }
+  .slider:hover .item {
+    animation-play-state: running !important;
+  }
 }
