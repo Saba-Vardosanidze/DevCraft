@@ -232,6 +232,7 @@
     background-image: url("./images/png/mediaQueryBackground.png");
     height: 160px;
     width: 390px;
+    background-size: cover;
   }
   .mainicon {
     top: 60px;
