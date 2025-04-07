@@ -1,3 +1,4 @@
+import Expertise from "../../components/Expertise/Expertise";
 import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Offered from "../../components/offered/Offered";
@@ -11,6 +12,7 @@ const Home = () => {
       </HeroSection>
       <Welcome />
       <Offered />
+      <Expertise />
     </div>
   );
 };
