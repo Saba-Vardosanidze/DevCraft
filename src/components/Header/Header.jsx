@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 export default function Header() {
   return (
@@ -13,10 +14,10 @@ export default function Header() {
         <nav className={styles.headerNavigationBar}>
           <ul>
             <li className={styles.navComponent}>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className={styles.navComponent}>
-              <a href="#">About Me</a>
+              <Link to="/about">About Me</Link>
             </li>
             <li className={styles.navComponent}>
               <a href="#">Services</a>

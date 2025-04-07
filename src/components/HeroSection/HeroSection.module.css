@@ -230,7 +230,6 @@
   }
   .background {
     background-image: url("./images/png/mediaQueryBackground.png");
-    background-size: cover;
     height: 160px;
     width: 390px;
   }
