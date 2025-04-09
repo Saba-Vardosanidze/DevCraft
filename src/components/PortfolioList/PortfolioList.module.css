@@ -1,0 +1,226 @@
+.portfolioListContainer {
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family-manrope);
+  margin-top: 150px;
+}
+.starContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 142px;
+  height: 45px;
+  background: radial-gradient(circle, #04041a 0%, #050523 100%);
+  border-radius: 8px;
+  box-shadow: inset 0 0 12px 4px #0b0b47, inset 0px 1px 0px #fff;
+  color: var(--color-white);
+  font-size: 14px;
+  background-image: url("/images/png/stars.png");
+  margin: auto;
+}
+.titleAndDescription {
+  margin-top: 14px;
+}
+.titleAndDescription h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--color-white);
+  text-align: center;
+}
+.titleAndDescription p {
+  color: var(--color-paragraph);
+  text-align: center;
+  max-width: 980px;
+  width: 100%;
+}
+.embla {
+  overflow: hidden;
+  height: 634px;
+  margin-top: 40px;
+}
+.embla__container {
+  display: flex;
+  gap: 50px;
+  margin: 110px auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.embla__slide {
+  flex: 0 0 393px;
+  min-width: 0;
+  max-width: 393px;
+  width: 100%;
+  border-radius: 16px;
+  position: relative;
+}
+.cardBottomPart {
+  height: 167px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.07),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.titleContainer {
+  display: flex;
+  font-size: 18px;
+  color: var(--color-white);
+  gap: 4px;
+  align-items: center;
+}
+.description {
+  text-align: center;
+  color: var(--color-paragraph);
+  max-width: 345px;
+  width: 100%;
+}
+.mainCardIcons {
+  position: absolute;
+  left: 160px;
+  top: -55px;
+}
+.photoContainer {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+}
+.bottomMainContainer {
+  background: linear-gradient(
+    90deg,
+    rgba(85, 71, 235, 0.01) 0%,
+    rgba(85, 71, 235, 0.05) 50%,
+    rgba(85, 71, 235, 0.01) 100%
+  );
+}
+.line {
+  background: linear-gradient(
+    90deg,
+    rgba(85, 71, 235, 0) 0%,
+    rgba(85, 71, 235, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 2px;
+  max-width: 1280px;
+  width: 100%;
+}
+.embla__prev,
+.embla__next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: inset 1px -1px 0px rgba(255, 255, 255, 0.15),
+    inset -1px 1px 0px rgba(255, 255, 255, 0.15);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.0844712885154062) 0%,
+    rgba(5, 5, 26, 0) 100%
+  );
+}
+.empty {
+  width: 165px;
+}
+.buttonsMainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 90px;
+}
+.buttonOutBorder {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  border: 1px solid var(--color-whiteOpacity);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allProject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 165px;
+  height: 45px;
+  background: radial-gradient(circle, #04041a 0%, #050523 100%);
+  border-radius: 8px;
+  box-shadow: inset 0 0 12px 4px #0b0b47, inset 0px 1px 0px #fff;
+  color: var(--color-white);
+  font-size: 14px;
+  cursor: pointer;
+}
+.leftButton {
+  transform: rotate(180deg);
+}
+@media (max-width: 1200px) {
+  .portfolioListContainer {
+    margin-top: 80px;
+  }
+  .titleAndDescription h2 {
+    font-size: 28px;
+  }
+  .titleAndDescription p {
+    font-size: 14px;
+    max-width: 358px;
+    width: 100%;
+  }
+  .embla__container {
+    gap: 50px;
+    margin: 100px auto;
+    max-width: 358px;
+    width: 100%;
+  }
+  .embla__slide {
+    flex: 0 0 358px;
+    max-width: 358px;
+  }
+  .embla {
+    max-width: 358px;
+    width: 100%;
+    margin: auto;
+  }
+  .mainCardIcons {
+    position: absolute;
+    left: 142px;
+    top: -55px;
+  }
+  .bottomMainContainer {
+    max-width: 358px;
+    width: 100%;
+  }
+  .buttonsMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .allProject {
+    gap: 6px;
+    width: 358px;
+    height: 49px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+}
