@@ -45,6 +45,7 @@
   flex-wrap: wrap;
 }
 .myOpportunity {
+  margin: auto;
   max-width: 625px;
   width: 100%;
   height: 208px;
