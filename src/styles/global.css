@@ -8,6 +8,8 @@
   --color-white: #ffffff;
   --color-paragraph: #b3b3b3;
   --color-sliderParagraph: #7e7e81;
+  --color-whiteOpacity: #ffffff15;
+
   /* Typography */
   --font-family-manrope: "manrope", Arial;
 }
