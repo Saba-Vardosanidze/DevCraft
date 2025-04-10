@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Offered from "../../components/offered/Offered";
 import PrtfolioList from "../../components/PortfolioList/PortfolioList";
+import Tools from "../../components/Tools/Tools";
 import Welcome from "../../components/Welcome/Welcome";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Offered />
       <Expertise />
       <PrtfolioList />
+      <Tools />
     </div>
   );
 };
