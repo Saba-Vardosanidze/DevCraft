@@ -1,0 +1,125 @@
+.collaborateMainContainer {
+  max-width: 1280px;
+  width: 100%;
+  height: 465px;
+  margin: 150px auto;
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  background: radial-gradient(
+    circle,
+    rgba(85, 71, 235, 0) 0%,
+    rgba(59, 50, 168, 1) 0%,
+    rgba(5, 5, 26, 0) 100%
+  );
+  font-family: var(--font-family-manrope);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleAndDescription {
+  margin-top: 14px;
+  max-width: 820px;
+  width: 100%;
+}
+.titleAndDescription h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 12px;
+}
+.titleAndDescription p {
+  color: var(--color-paragraph);
+  text-align: center;
+  max-width: 980px;
+  width: 100%;
+  margin: auto;
+}
+.headerButton {
+  padding: 14px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-headerButton);
+  box-shadow: inset 0px 0px 14px 8px rgba(255, 255, 255, 0.25);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-white);
+  transition: 300ms;
+  margin-top: 40px;
+}
+.headerButton:hover {
+  filter: drop-shadow(0px 0px 10px var(--color-headerButton));
+}
+.iconContainer {
+  display: flex;
+  gap: 16px;
+}
+.outContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid var(--color-whiteOpacity);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photoContainer {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: inset 1px -1px 0px rgba(255, 255, 255, 0.15),
+    inset -1px 1px 0px rgba(255, 255, 255, 0.15);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.0844712885154062) 0%,
+    rgba(5, 5, 26, 0) 100%
+  );
+  transition: 200ms;
+}
+.photoContainer:hover {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(222px);
+  filter: drop-shadow(0px 0px 15px var(--color-white));
+}
+@media (max-width: 1200px) {
+  .collaborateMainContainer {
+    max-width: 358px;
+    width: 100%;
+    max-width: 358px;
+    width: 100%;
+    height: 319px;
+  }
+  .titleAndDescription h2 {
+    font-size: 28px;
+  }
+  .titleAndDescription p {
+    font-size: 12px;
+    width: 298px;
+  }
+  .outContainer {
+    width: 44px;
+    height: 44px;
+  }
+  .photoContainer {
+    width: 32px;
+    height: 32px;
+  }
+  .photoContainer img {
+    width: 20px;
+    height: 20px;
+  }
+  .iconContainer {
+    gap: 12px;
+  }
+  .headerButton {
+    padding: 14px 110px;
+  }
+}

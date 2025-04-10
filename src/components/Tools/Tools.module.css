@@ -7,7 +7,6 @@
   align-items: center;
   font-family: var(--font-family-manrope);
   margin-top: 150px;
-  height: 900px;
 }
 .starContainer {
   display: flex;
