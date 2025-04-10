@@ -1,3 +1,4 @@
+import Collaborate from "../../components/Collaborate/Collaborate";
 import Expertise from "../../components/Expertise/Expertise";
 import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
@@ -17,6 +18,7 @@ const Home = () => {
       <Expertise />
       <PrtfolioList />
       <Tools />
+      <Collaborate />
     </div>
   );
 };
