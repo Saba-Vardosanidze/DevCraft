@@ -174,3 +174,12 @@ select {
 button {
   all: unset;
 }
+.myHeight {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.mainContainer {
+  flex: 1;
+}

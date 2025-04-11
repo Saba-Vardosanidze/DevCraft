@@ -171,7 +171,8 @@
   top: 124px;
   left: 50%;
   transform: translate(-50%, 0%);
-  filter: drop-shadow(0px 0px 60px rgba(85, 71, 235));
+  box-shadow: 0px 0px 188px 40px rgba(85, 71, 235, 0.5);
+  border-radius: 100%;
 }
 .aboutMe {
   background: linear-gradient(

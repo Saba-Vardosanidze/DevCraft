@@ -138,13 +138,13 @@
   );
   transition: 200ms;
 }
-.embla__next:hover {
+.embla__next:active {
   height: 100%;
   width: 100%;
   backdrop-filter: blur(222px);
   filter: drop-shadow(0px 0px 15px var(--color-white));
 }
-.embla__prev:hover {
+.embla__prev:active {
   height: 100%;
   width: 100%;
   backdrop-filter: blur(222px);
