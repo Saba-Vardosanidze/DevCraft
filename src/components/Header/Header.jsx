@@ -27,10 +27,10 @@ export default function Header() {
               <Link to="/about">About Me</Link>
             </li>
             <li className={styles.navComponent}>
-              <a href="#">Services</a>
+              <Link href="#">Services</Link>
             </li>
             <li className={styles.navComponent}>
-              <a href="#">Portfolio</a>
+              <Link href="#">Portfolio</Link>
             </li>
           </ul>
         </nav>
