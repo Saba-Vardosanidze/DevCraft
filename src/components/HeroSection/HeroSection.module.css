@@ -147,6 +147,9 @@
   width: 100%;
   position: absolute;
 }
+.mobileBackgroundImg {
+  display: none;
+}
 .aboutMe,
 .crafting {
   max-width: 515px;
@@ -221,14 +224,18 @@
     background: url("/images/png/backgroundRadial.png");
   }
 }
-
 @media (max-width: 900px) {
   .herosectionContainer {
     height: 546px;
     width: 100%;
+    margin-bottom: 75px;
   }
   .backgroundImage {
-    height: 100px;
+    display: none;
+  }
+  .mobileBackgroundImg {
+    display: flex;
+    height: 150px;
     width: 100%;
   }
   .background {
@@ -236,7 +243,8 @@
     align-items: end;
   }
   .mainicon {
-    top: 310px;
+    top: 330px;
+    box-shadow: none;
   }
   .profileMainContainer {
     width: 390px;
