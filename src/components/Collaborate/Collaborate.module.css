@@ -3,14 +3,10 @@
   width: 100%;
   height: 465px;
   margin: 150px auto;
-  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.15),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.034),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.014);
   border-radius: 16px;
-  background: radial-gradient(
-    circle,
-    rgba(85, 71, 235, 1) 0%,
-    rgba(5, 5, 26, 0) 100%
-  );
+  background: url("/images/png/colaborateBackgroundRadial.png");
 
   font-family: var(--font-family-manrope);
   display: flex;
@@ -89,11 +85,8 @@
   backdrop-filter: blur(222px);
   filter: drop-shadow(0px 0px 15px var(--color-white));
 }
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
   .collaborateMainContainer {
-    max-width: 358px;
-    width: 100%;
-    max-width: 358px;
     width: 100%;
     height: 319px;
   }

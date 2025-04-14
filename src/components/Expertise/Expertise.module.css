@@ -102,7 +102,6 @@
 }
 @media (max-width: 1200px) {
   .expertiseMainContainer {
-    max-width: 358px;
     width: 100%;
   }
   .titleAndDescription h2 {
@@ -110,7 +109,6 @@
   }
   .titleAndDescription p {
     font-size: 14px;
-    max-width: 358px;
     width: 100%;
   }
   .cardContainer {

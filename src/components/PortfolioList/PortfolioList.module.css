@@ -58,6 +58,7 @@
   border-radius: 16px;
   position: relative;
 }
+
 .cardBottomPart {
   height: 167px;
   border-bottom-left-radius: 16px;
@@ -188,7 +189,33 @@
 .leftButton {
   transform: rotate(180deg);
 }
+@media (max-width: 1280px) {
+  .embla__container {
+    gap: 30px;
+    margin: 100px auto;
+    width: 100%;
+  }
+
+  .embla__slide {
+    flex: 0 0 370px;
+  }
+
+  .embla {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .mainCardIcons {
+    left: 150px;
+  }
+}
 @media (max-width: 1200px) {
+  .embla__slide {
+    flex: 0 0 320px;
+  }
+  .embla {
+    max-width: 670px;
+  }
   .portfolioListContainer {
     margin-top: 80px;
   }
@@ -197,31 +224,9 @@
   }
   .titleAndDescription p {
     font-size: 14px;
-    max-width: 358px;
     width: 100%;
-  }
-  .embla__container {
-    gap: 50px;
-    margin: 100px auto;
-    max-width: 358px;
-    width: 100%;
-  }
-  .embla__slide {
-    flex: 0 0 358px;
-    max-width: 358px;
-  }
-  .embla {
-    max-width: 358px;
-    width: 100%;
-    margin: auto;
-  }
-  .mainCardIcons {
-    position: absolute;
-    left: 142px;
-    top: -55px;
   }
   .bottomMainContainer {
-    max-width: 358px;
     width: 100%;
   }
   .buttonsMainContainer {
@@ -231,9 +236,19 @@
   }
   .allProject {
     gap: 6px;
-    width: 358px;
     height: 49px;
     border-radius: 8px;
     margin-top: 30px;
+  }
+  .mainCardIcons {
+    left: 125px;
+  }
+}
+@media (max-width: 673px) {
+  .embla__slide {
+    flex: 0 0 320px;
+  }
+  .embla {
+    max-width: 320px;
   }
 }

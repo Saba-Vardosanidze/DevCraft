@@ -116,9 +116,8 @@
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 800px) {
   .headerContainer {
-    max-width: 358px;
     height: 80px;
   }
   .headerNavigationBar {

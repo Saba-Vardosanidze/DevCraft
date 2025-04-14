@@ -35,6 +35,7 @@
   color: var(--color-paragraph);
   text-align: center;
   margin-top: 12px;
+  margin: auto;
 }
 .opportunityContainer {
   margin: 60px auto;
@@ -124,7 +125,6 @@
 @media (max-width: 1200px) {
   .offerMainContainer {
     margin-top: 80px;
-    max-width: 358px;
     width: 100%;
   }
   .offerTitleContainer {
@@ -138,7 +138,6 @@
   .offerTitleContainer p {
     margin-top: 10px;
     font-size: 14px;
-    max-width: 358px;
     width: 100%;
   }
   .myOpportunity {

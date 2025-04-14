@@ -144,9 +144,6 @@
   font-size: 14px;
 }
 @media (max-width: 1200px) {
-  .mainContainer {
-    width: 357px;
-  }
   .welcomeTitle h2 {
     font-size: 28px;
   }

@@ -36,6 +36,11 @@ export default function HeroSection({ children }) {
         </div>
         <div className={styles.background}>
           <img
+            className={styles.backgroundImage}
+            src="/images/png/Background.png"
+            alt="background"
+          />
+          <img
             className={styles.mainicon}
             src="/images/svg/mainicon.svg"
             alt="icon"
