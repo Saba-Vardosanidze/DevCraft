@@ -1,0 +1,164 @@
+.faqMainContainer {
+  font-family: var(--font-family-manrope);
+  margin: auto;
+  margin-top: 150px;
+  min-height: 850px;
+  height: 100%;
+}
+.starContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  max-width: 85px;
+  width: 100%;
+  height: 45px;
+  background: radial-gradient(circle, #04041a 0%, #050523 100%);
+  border-radius: 8px;
+  box-shadow: inset 0 0 12px 4px #0b0b47, inset 0px 1px 0px #fff;
+  color: var(--color-white);
+  font-size: 14px;
+  background-image: url("/images/png/stars.png");
+  margin: auto;
+}
+.titleAndDescription {
+  margin-top: 14px;
+}
+.titleAndDescription h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--color-white);
+  text-align: center;
+}
+.titleAndDescription p {
+  color: var(--color-paragraph);
+  text-align: center;
+  max-width: 980px;
+  width: 100%;
+  font-size: 16px;
+  margin: auto;
+}
+.questionAndAnswer {
+  max-width: 628px;
+  height: auto;
+  border: 1px solid #ffffff10;
+  background: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 84px;
+  width: 100%;
+  align-items: center;
+  padding: 0px 30px;
+}
+.topContainer h2 {
+  color: var(--color-white);
+  font-size: 18px;
+}
+.topContainer button {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.07),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle at top,
+    rgba(85, 71, 235, 0.15) 0%,
+    rgba(85, 71, 235, 0.02) 60%,
+    rgba(85, 71, 235, 0) 100%
+  );
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
+.redBlue {
+  position: absolute;
+  height: 25px;
+  width: 3px;
+  top: 50%;
+  transition: all 200ms ease-in;
+  transform: translate(0, -50%);
+}
+.redSign {
+  background-color: var(--color-redColor);
+}
+.blueSign {
+  background-color: var(--color-headerButton);
+}
+.description p {
+  color: var(--color-headerParagraph);
+  max-width: 500px;
+  width: 100%;
+  margin: 18px 0px 40px 30px;
+}
+.line {
+  height: 1px;
+  max-width: 500px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-left: 30px;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 628px;
+  width: 100%;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 628px;
+  width: 100%;
+}
+.qAndAmainContainer {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  margin: 60px auto;
+  gap: 24px;
+  justify-content: center;
+}
+@media (max-width: 988px) {
+  .titleAndDescription h2 {
+    font-size: 28px;
+  }
+  .titleAndDescription p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .description p {
+    color: var(--color-headerParagraph);
+    width: 90%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 902px) {
+  .qAndAmainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 433px) {
+  .topContainer h2 {
+    font-size: 16px;
+  }
+}
