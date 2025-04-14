@@ -45,6 +45,11 @@ export default function HeroSection({ children }) {
             src="/images/svg/mainicon.svg"
             alt="icon"
           />
+          <img
+            className={styles.mobileBackgroundImg}
+            src="/images/png/backgroundMedia.png"
+            alt="mobileBackground"
+          />
           <div className={styles.aboutMe} data-aos="fade-right">
             <h2>About Me</h2>
             <p>
