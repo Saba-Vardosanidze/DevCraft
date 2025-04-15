@@ -216,19 +216,35 @@
   color: var(--color-white);
 }
 @media (max-width: 1330px) {
+  .crafting {
+    right: 10px;
+  }
+  .aboutMe {
+    left: 10px;
+  }
   .aboutMe,
   .crafting {
-    display: none;
+    max-width: 400px;
+    width: 100%;
+    height: 188px;
+  }
+  .crafting p,
+  .aboutMe p {
+    font-size: 12px;
   }
   .herosectionContainer {
     background: url("/images/png/backgroundRadial.png");
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .herosectionContainer {
     height: 546px;
     width: 100%;
     margin-bottom: 75px;
+  }
+  .aboutMe,
+  .crafting {
+    display: none;
   }
   .backgroundImage {
     display: none;
