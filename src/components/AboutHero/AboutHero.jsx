@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 const AboutHero = () => {
   return (
-    <div className="flex justify-center items-center bg-[linear-gradient(225deg,_rgba(255,255,255,0.04)_0%,_rgba(255,255,255,0)_25%,_rgba(255,255,255,0)_75%,_rgba(255,255,255,0.04)_100%)] lg:bg-[url('/images/png/aboutStars.png')] lg:bg-no-repeat shadow-[inset_0px_1px_0px_rgba(255,255,255,0.1),_inset_1px_0px_0px_rgba(255,255,255,0.07),_inset_0px_-1px_0px_rgba(255,255,255,0.07)] m-auto mt-[64px] rounded-[16px] max-w-[358px] lg:max-w-[1360px] min-h-[933px] lg:min-h-[577px]">
+    <div className="flex justify-center items-center bg-[linear-gradient(225deg,_rgba(255,255,255,0.04)_0%,_rgba(255,255,255,0)_25%,_rgba(255,255,255,0)_75%,_rgba(255,255,255,0.04)_100%)] shadow-[inset_0px_1px_0px_rgba(255,255,255,0.1),_inset_1px_0px_0px_rgba(255,255,255,0.07),_inset_-1px_0px_0px_rgba(255,255,255,0.07)] m-auto mt-[64px] rounded-[16px] max-w-[358px] lg:max-w-[1360px] min-h-[933px] lg:min-h-[577px]">
       <div className="flex lg:flex-row-reverse flex-col items-center">
         <img
           className="lg:ml-[50px] max-w-[298px] lg:max-w-[455px] min-h-[319px] lg:min-h-[457px]"
