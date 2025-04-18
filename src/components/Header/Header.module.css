@@ -11,6 +11,7 @@
   border-radius: 10px;
   border: 1px solid var(--color-headerBorder);
   font-family: var(--font-family-manrope);
+  margin-top: 40px;
 }
 .logo {
   width: 129px;
