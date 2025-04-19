@@ -40,6 +40,11 @@ export default function Header() {
         <button className={styles.headerButton}>Contact Me</button>
       </header>
       <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.show : ""}`}>
+        <img
+          className="mb-[12px] max-w-[90px] min-h-[40px]"
+          src="images/svg/Logo.svg"
+          alt="logo"
+        />
         <ul>
           <li className={styles.listComponent}>
             <Link to="/" onClick={toggleMenu}>
